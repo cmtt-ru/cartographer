@@ -1,5 +1,5 @@
 {
-    "name": "tackk/cartographer",
+    "name": "cmtt-ru/cartographer",
     "description": "A PHP sitemap generation tool.",
     "keywords": ["sitemap", "generator"],
     "license": "MIT",
@@ -15,7 +15,7 @@
     },
     "require": {
         "php": ">=5.4",
-        "league/flysystem": "1.0.*"
+        "league/flysystem": "1.1.*"
     },
     "autoload": {
         "files": [
