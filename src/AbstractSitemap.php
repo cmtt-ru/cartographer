@@ -16,7 +16,7 @@ class MaxUrlCountExceededException extends RuntimeException
 
 abstract class AbstractSitemap
 {
-    const MAX_URLS = 50000;
+    const MAX_URLS = 80000;
 
     /**
      * Get the root node name for the sitemap (e.g. 'urlset').

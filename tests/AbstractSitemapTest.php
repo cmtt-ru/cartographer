@@ -56,10 +56,10 @@ class AbstractSitemapTest extends PHPUnit_Framework_TestCase
         $urlCount = $class->getProperty('urlCount');
         $urlCount->setAccessible(true);
 
-        $urlCount->setValue($this->abstractMock, 49999);
+        $urlCount->setValue($this->abstractMock, 79999);
         $this->assertFalse($this->abstractMock->hasMaxUrlCount());
 
-        $urlCount->setValue($this->abstractMock, 50000);
+        $urlCount->setValue($this->abstractMock, 80000);
         $this->assertTrue($this->abstractMock->hasMaxUrlCount());
     }
 
